@@ -1,0 +1,12 @@
+# Doxyfile configuration for Doxygen
+PROJECT_NAME           = "MyCProject"
+OUTPUT_DIRECTORY       = "doxygen"
+GENERATE_XML           = YES
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+INPUT                  = src
+FILE_PATTERNS          = *.c *.h
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_METHODS  = YES
